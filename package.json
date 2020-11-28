@@ -1,0 +1,34 @@
+{
+  "name": "sortable-dnd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "output/sortable-dnd.js",
+  "module": "output/sortable-dnd.js",
+  "scripts": {
+    "test": "mocha --require @babel/register src/tests/all.test.js",
+    "build": "rollup -c",
+    "demo": "parcel demo/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shresthalucky/sortable-dnd.git"
+  },
+  "author": "Lucky Shrestha <luckshrestha@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "lit-element": "^2.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.7",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/register": "^7.12.1",
+    "@rollup/plugin-babel": "^5.2.1",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "parcel-bundler": "^1.12.4",
+    "rollup": "^2.33.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
